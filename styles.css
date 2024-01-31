@@ -12,12 +12,13 @@
 }
 .post-head .left {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 .post-head .left .fab {
-    font-size: 24px;
+    font-size: 40px;
     margin-right: 10px;
 }
+
 .post-head .left .text {
     display: flex;
     flex-direction: column;
@@ -29,14 +30,25 @@
 .post-head .subtitle {
     font-weight: normal;
 }
+
+
 .post-body img {
     width: 100%;
     height: auto;
 }
 .post-foot {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    /*flex-direction: row;*/
 }
+
+.footright {
+    
+    float: right;
+
+}
+
+
 .post-foot div {
     margin-bottom: 10px;
 }
